@@ -1,0 +1,180 @@
+.App {
+  text-align: center;
+}
+
+.App-logo {
+  height: 40vmin;
+  pointer-events: none;
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .App-logo {
+    animation: App-logo-spin infinite 20s linear;
+  }
+}
+
+.App-header {
+  background-color: #282c34;
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  font-size: calc(10px + 2vmin);
+  color: white;
+}
+
+.App-link {
+  color: #61dafb;
+}
+
+@keyframes App-logo-spin {
+  from {
+    transform: rotate(0deg);
+  }
+  to {
+    transform: rotate(360deg);
+  }
+}
+
+
+ 
+
+.nav {
+  background-color: #2d0cea;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: hwb(175 80% 10%);
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+li a:hover {
+  color: #808080;
+}
+
+
+.navbar{
+  position : relative;
+  display : flex;
+  align-items : center;
+}
+.navbar-right {
+  margin-left: auto;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Adjust the height as needed */
+  margin-top: 20px; /* Add margin from the top */
+  margin-bottom: 20px; /* Add margin from the bottom */
+}
+
+.left {
+  text-align: left;
+  margin-right: 50px; /* Adjust the margin to move the content to the right */
+}
+
+.center {
+  text-align: center;
+}
+
+.center a {
+  display: block; /* Ensures the link takes up the full width of the container */
+}
+
+.center img {
+  max-width: 100%; /* Optional: Adjust the maximum width of the image */
+  height: auto; /* Optional: Maintain the image's aspect ratio */
+}
+
+.foot {
+  padding: 20px;
+  background-color: #bf49a9;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+}
+
+.foot form {
+  margin-bottom: 10px;
+}
+
+.foot form label {
+  display: block;
+  margin-bottom: 10px;
+}
+
+.foot form input[type="text"] {
+  width: 200px;
+  padding: 5px;
+}
+
+.foot form button[type="submit"] {
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+.foot nav {
+  text-align: right;
+  margin-top: 10px;
+}
+
+.foot nav ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+.foot nav ul li {
+  display: inline-block;
+  margin-right: 10px;
+}
+
+.foot nav ul li:last-child {
+  margin-right: 0;
+}
+
+.foot nav ul li a {
+  text-decoration: none;
+  color: #0d0606ef,
+  
+}
+.foot nav ul li a:hover{
+  color: #808080;
+}
+.may {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: #bf49A0;
+  
+}
+
+.may p {
+  margin: 0;
+  padding: 10px;
+  text-align: center;
+}
+
+
