@@ -4,6 +4,7 @@ import { Route,Switch,Link } from 'react-router-dom';
 import { BrowserRouter as Router } from 'react-router-dom';
 import About from './About';
 import Contact from './Contact';
+import Error from './Error';
 function App() {
   return (
     <Router>
@@ -13,6 +14,7 @@ function App() {
         <Route exact path = '/' component= {Page} />
         <Route  path = '/contact' component= {Contact} />
         <Route  path = '/about' component= {About} />
+        <Route  component= {Error} />
 
       </Switch>
 
